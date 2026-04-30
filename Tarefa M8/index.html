@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Endereço</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <button id="botaoTema"></button>
+        <h1>Cadastro de Endereço</h1>
+        <form>
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" required>
+            <button type="button" id="logradouro">Buscar Endereço</button>
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="neighborhood" required>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="city" required>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" name="state" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
